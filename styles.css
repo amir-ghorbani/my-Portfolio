@@ -478,6 +478,16 @@ svg {
         right: 1rem;
 
     }
+    .flex_2Columns {
+        justify-content: center;
+        flex-direction:column;
+        align-items: top;
+        align-content: center;
+        text-align: center;
+    }
+    .col_width {
+        width: 80%;
+    }
 
 }
 
@@ -502,6 +512,7 @@ svg {
     .arrowUp {
         margin: 30px 0;
     }
+    
 
 }
 
@@ -511,13 +522,7 @@ svg {
         padding-top: 100px;
     }
 
-    .flex_2Columns {
-        justify-content: center;
-        flex-direction:column;
-        align-items: top;
-        align-content: center;
-        text-align: center;
-    }
+    
 }
 
 
