@@ -77,6 +77,19 @@ img {
     max-width: 49.7%;
 }
 
+/* Atomic ////////// */
+.atomic {
+    background-color:#2E323B;
+    color: rgb(255, 255, 255);
+}
+#barcode {
+    max-width: 300px;
+}
+.whiteBG {
+    background-color:#ffffff;
+    color: #1F2229;
+}
+
 
 
 /* Basic /////////////////////////////////////////////////*/
