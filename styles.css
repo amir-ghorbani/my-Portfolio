@@ -6,36 +6,44 @@
 :root {
     --primary-color: #f2f2f2;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
 body {
     font-family: 'Josefin Sans', sans-serif;
     color: #333;
     line-height: 1.6;
     background-color: var(--primary-color);
 }
+
 ul {
     list-style-type: none;
 }
+
 a {
     text-decoration: none;
     color: #333;
 }
+
 h1,
 h2 {
     font-weight: 300;
     line-height: 1.2;
     margin: 10px 0;
 }
+
 p {
     margin: 10px 0;
 }
+
 img {
     width: 100%;
 }
@@ -46,9 +54,11 @@ img {
     margin: 0 auto;
     padding: 0 40px;
 }
+
 .content {
     z-index: -1;
 }
+
 .columnsFlex {
     display: flex;
     flex-direction: row;
@@ -58,41 +68,50 @@ img {
 
 /* Gucci ////////// */
 .Gucci {
-    background-color:#144241;
+    background-color: #144241;
     color: rgb(255, 255, 255);
 }
 
 /* Valerian ////////// */
 .greyBG {
-    background-color:#707070;
+    background-color: #707070;
     color: white;
 }
+
 .halfParagraph {
     max-width: 50%;
 }
+
 .oneForthImage {
     max-width: 22%;
 }
+
 .halfImage {
     max-width: 49.7%;
 }
 
 /* Atomic ////////// */
 .atomic {
-    background-color:#2E323B;
+    background-color: #2E323B;
     color: rgb(255, 255, 255);
 }
+
 #barcode {
     max-width: 300px;
 }
+
 .whiteBG {
-    background-color:#ffffff;
+    background-color: #ffffff;
     color: #1F2229;
 }
+
 .atomicArrowText {
     color: white;
 }
 
+ 
+
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
 
 
 /* Basic /////////////////////////////////////////////////*/
@@ -482,15 +501,15 @@ svg {
     color: white;
 
 
-    
+
 }
 
 .whiteColorSVG {
 
 
-   filter: invert(100%) ;
+    filter: invert(100%);
 
-    
+
 }
 
 
@@ -511,15 +530,24 @@ svg {
         right: 1rem;
 
     }
+
     .flex_2Columns {
         justify-content: center;
-        flex-direction:column;
+        flex-direction: column;
         align-items: top;
         align-content: center;
         text-align: center;
     }
+
     .col_width {
         width: 80%;
+    }
+    /* Valerian ////////// */
+    .halfParagraph {
+        max-width: 100%;
+    }
+    .halfImage {
+        max-width: 100%;
     }
 
 }
@@ -545,7 +573,7 @@ svg {
     .arrowUp {
         margin: 30px 0;
     }
-    
+
 
 }
 
@@ -556,6 +584,8 @@ svg {
     }
 
     
+
+
 }
 
 
@@ -572,7 +602,6 @@ svg {
         display: flex;
     }
 
-
     .navbar-mobile.active {
         display: flex;
         height: 100vh;
@@ -585,10 +614,7 @@ svg {
         margin-top: -30px;
     }
 
-    
-
     /* Showcase */
-
     .showcase-text {
         padding-top: 70px;
     }
@@ -614,35 +640,31 @@ svg {
         font-size: 30px;
     }
 
-
-
-
-}
-
-/* @media all and (max-width: 415px
-) {
-
-    .showcase-text {
-        padding-top: 150px;
+    /* Valerian ////////// */
+    .oneForthImage {
+        max-width: 49.7%;
     }
-} */
+    
+}
 
 @media all and (max-width: 415px) {
 
+    /* Caritas ////////// */
     .showcase-caritas {
         padding-top: 50px;
-        /* margin-bottom: -50px; */
     }
 
     .content-caritas {
         margin-top: -15px;
     }
 
+    /* Ardu ////////// */
     .showcase-ardu {
         padding-top: 35px;
     }
 
-    /* .showcase-clock {
-        padding-top: 20px;
-    } */
+    /* Valerian ////////// */
+    .oneForthImage {
+        max-width: 100%;
+    }
 }

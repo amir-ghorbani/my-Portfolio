@@ -7,6 +7,8 @@ toggleButton.addEventListener("click", () => {
 
 
 
+
+
 // const toggleButton = document.getElementsByClassName("toggle-button")[0]
 // const navbarLinks = document.getElementsByClassName("navbar-mobile")[0]
 // const toggleButtonCross = document.getElementsByClassName("toggle-button-cross")[0]
