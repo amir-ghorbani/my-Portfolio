@@ -438,6 +438,7 @@ svg {
 .image__img {
     display: block;
     width: 100%;
+    border-radius: 10px;
 }
 
 .image__overlay {
@@ -458,6 +459,7 @@ svg {
 
 .image__overlay--blur {
     backdrop-filter: blur(5px);
+    border-radius: 10px;
 }
 
 /* Every direct child */
